@@ -1,0 +1,74 @@
+@media (max-width: 950px) {
+    .slogan {
+        font-size: 50px;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .main .container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding-left: 30px;
+    }
+
+    .slogan {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .slide-choice {
+        margin-left: -100px;
+    }
+
+    .price {
+        margin-left: -100px;
+    }
+
+    .sec-choose-psycho {
+        margin-left: -100px;
+    }
+
+    .list-elem-znak {
+        display: block;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .choose-psycho {
+        font-size: 15px;
+    }
+
+    #nav-icon6 span {
+        height: 6px;
+    }
+
+    #nav-icon6 span:before {
+        height: 6px;
+    }
+
+    #nav-icon6 span:after {
+        height: 6px;
+    }
+
+    .list-elem {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .choose-psycho {
+        font-size: 11px;
+    }
+}
