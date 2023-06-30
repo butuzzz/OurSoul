@@ -8,20 +8,10 @@ menuIcon.onclick = function(e) {
         x ++;
         if ( x % 2 !== 0) {
             llist.style.display = 'block';
-            menuIcon.innerHTML('X');
         } else {
             llist.style.display = 'none';
-            menuIcon.innerHTML('☰');
         }; }, 100);
 };
-
-// menuIcon.onclick = function(e) {
-
-// };
-
-// menuIcon.onclick = function(e) {
-
-// };
 
 
 $(function() {

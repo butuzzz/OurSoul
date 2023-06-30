@@ -263,10 +263,11 @@ a {
 
 .slogan_img {
 	display: block;
-	max-height: 10%;
+	height: auto;
 	max-width: 36%;
 	margin-right: 125px;
-	padding: 30px 0;
+	padding: 0;
+	border-radius: 100px;
 }	
 
 .slide-choice {
@@ -531,8 +532,13 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #fff;
+	margin-left: -30px;
 }
 
+/* .psycho-list {
+	margin-left: 70px;
+}  */
 .psycho-discussion {
 	text-decoration: none;
 	font-size: 30px;

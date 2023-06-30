@@ -1,7 +1,44 @@
 @media (max-width: 950px) {
-    .slogan {
-        font-size: 50px;
+    .section-container {
+        margin-left: auto;
+        margin-right: auto;
     }
+    
+    #four {
+        padding: 0;
+        margin-left: 38.5%;
+        margin-right: 38.5%;
+    }
+
+    #five {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #six {
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+    
+    .discuss-with-psycho {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #l-girl {
+        margin-left: 37%;
+    }
+
+    .th-section-img {
+        margin-left: 35%;
+    }
+
+    .slogan_img {
+        margin-right: 0;
+        margin-left: -60px;
+        border-radius: 60px;
+    }
+
 
     .navbar-menu {
         display: none;
@@ -17,6 +54,7 @@
     .slogan {
         text-align: center;
         margin-left: 0;
+        font-size: 50px;
     }
 
     .slide-choice {
@@ -38,6 +76,45 @@
 }
 
 @media (max-width: 750px) {
+    .slogan {
+        font-size: 40px;
+    }
+
+    
+    .section-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #four {
+        padding: 0;
+        margin-left: 35%;
+    }
+
+    #five {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #six {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .discuss-with-psycho {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #l-girl {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .list-title {
+        font-size: 40px;
+    }
+    
     .navbar-brand {
         font-size: 30px;
     }
@@ -61,14 +138,84 @@
     .list-elem {
         font-size: 15px;
     }
+
+    .slogan_img {
+        border-radius: 50px;
+    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
+    .section-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    
+    #four {
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #five {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #six {
+        margin-left: auto;
+        margin-right: 33px;
+    }
+    
+    .discuss-with-psycho {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #l-girl {
+        margin-left: 25px;
+    }
+    
+    .list-title {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 560px) {
     .navbar-brand {
         font-size: 25px;
     }
 
+    .slogan {
+        font-size: 35px;
+    }
+
     .choose-psycho {
         font-size: 11px;
+    }
+}
+
+@media (max-width: 488px) {
+    .navbar-brand {
+        font-size: 17px;
+    }
+
+    .choose-psycho {
+        padding: 7px;
+        font-size: 9px;
+    }
+
+    #nav-icon6 span {
+        height: 4px;
+    }
+
+    #nav-icon6 span:before {
+        height: 4px;
+    }
+
+    #nav-icon6 span:after {
+        height: 4px;
     }
 }
