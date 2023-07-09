@@ -259,6 +259,7 @@ a {
 .slogan {
 	color:#81005ac5;
 	font-size: 57px;
+	/* margin-bottom: -10px; */
 }
 
 .slogan_img {
@@ -270,11 +271,11 @@ a {
 	border-radius: 100px;
 }	
 
-.slide-choice {
+/* .slide-choice {
 	margin-top: 10px;
-}
+} */
 
-.switch {
+/* .switch {
 	display: inline-block;
 	position: relative;
 	height: 50px;
@@ -341,16 +342,18 @@ a {
 	flex-flow: row;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
 .price {
 	display: flex;
 	justify-content: center;
 	width: 360px;
-	opacity: 0.55;
+	opacity: 0.5;
+	color:#610044;
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: -20px;
 }
-
-
 
 .sec-choose-psycho {
 	color: #FFF8FA;
@@ -363,12 +366,14 @@ a {
 	transition: all .3s ease-in-out;
 	box-shadow: 0 4px 6px rgb(122, 0, 86, .2);
 	border: #7a0056 solid 2px;
-	font-size: 22px;
+	font-size: 27px;
 	width: 360px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 360px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .sec-choose-psycho:hover {

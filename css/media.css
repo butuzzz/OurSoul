@@ -11,13 +11,13 @@
     }
 
     #five {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 34%;
+        margin-right: 33%;
     }
 
     #six {
-        margin-left: 27%;
-        margin-right: 27%;
+        margin-left: 26%;
+        /* margin-right: 26%; */
     }
     
     .discuss-with-psycho {
@@ -97,8 +97,7 @@
     }
 
     #six {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 21%;
     }
     
     .discuss-with-psycho {
@@ -106,9 +105,18 @@
         margin-right: auto;
     }
 
+    #little-girl  {
+        /* margin-left: auto !important;
+        margin-right: auto; */
+        margin: 0;
+    }
+
+    .th-section-img {
+        margin-left: 33%;
+    }
+
     #l-girl {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 33%;
     }
     
     .list-title {
@@ -154,18 +162,22 @@
     
     #four {
         padding: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 32%;
+        margin-right: 32%;
     }
 
     #five {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 27%;
+    }
+
+    #y-girl {
+        margin: 0;
+        margin-left: -10px;
     }
 
     #six {
-        margin-left: auto;
-        margin-right: 33px;
+        margin-left: 15%;
+        margin-right: 33%;
     }
     
     .discuss-with-psycho {
@@ -173,10 +185,20 @@
         margin-right: auto;
     }
 
-    #l-girl {
-        margin-left: 25px;
+    #little-girl  {
+        /* margin-left: auto !important;
+        margin-right: auto; */
+        margin: 0;
     }
-    
+
+    .th-section-img {
+        margin-left: 28.5%;
+    }
+
+    #l-girl {
+        margin-left: 28.5%;
+    }
+
     .list-title {
         font-size: 30px;
     }
@@ -185,7 +207,8 @@
 
 @media (max-width: 560px) {
     .navbar-brand {
-        font-size: 25px;
+        font-size: 23px;
+        /* margin-left: 10px; */
     }
 
     .slogan {
@@ -193,18 +216,226 @@
     }
 
     .choose-psycho {
-        font-size: 11px;
+        font-size: 14px;
+        margin-left: -10px;
     }
+
+    .f-section-img {
+        width: 201px;
+        height: 134px;
+    }
+
+    .s-section-img {
+        width: 203px;
+        height: 145px;
+    }
+
+    .th-section-img {
+        height: 150px;
+        width: auto;
+    }
+
+    .fr-section-img {
+        height: 250px;
+        width: 158px;
+    }
+
+    .ff-section-img {
+        height: 250px;
+        width: 158px;
+    }
+
+    .sx-section-img {
+        height: 250px;
+        width: 107px;
+    }
+
+
+    .section-container {
+        margin-left: 32%;
+        margin-right: 32%;
+    }
+
+    .section-text {
+        font-size: 17px;
+    }
+
+    #ffst {
+        margin-left: -10px;
+        width: 223px;
+    }
+
+    #swcnd {
+        margin-left: -10px;
+        width: 223px;
+    }
+    
+    #four {
+        padding: 0;
+        margin-left: 37%;
+        margin-right: 37%;
+    }
+
+    #o-girl {
+        margin-left: -110px;
+    }
+
+    #five {
+        margin-left: 25%;
+    }
+
+    #y-girl {
+        margin: 0;
+        margin-left: -10px;
+    }
+
+    #six {
+        margin-left: 14%;
+        margin-right: 33%;
+    }
+    
+    .discuss-with-psycho {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #little-girl  {
+        /* margin-left: auto !important;
+        margin-right: auto; */
+        margin: 0;
+    }
+
+    .th-section-img {
+        margin-left: 30%;
+    }
+
+    #l-girl {
+        margin-left: 28%;
+    }
+
+    .list-title {
+        font-size: 30px;
+    }
+
+    #m-girl {
+        margin-left: -15px;
+    }
+
 }
 
 @media (max-width: 488px) {
+    .section-container {
+        margin-left: 32%;
+        margin-right: 32%;
+    }
+
+    .section-text {
+        font-size: 17px;
+    }
+
+    #ffst {
+        margin-left: -10px;
+        width: 223px;
+    }
+
+    #swcnd {
+        margin-left: -15px;
+        width: 223px;
+    }
+
+    .s-section-img {
+        margin-left: -13px;
+    }
+
+    .th-section-img {
+        margin-left: -130px;
+        padding-left: 40px;
+    }
+
+    #l-girl {
+        padding-left: 25px;
+    }
+    
+    #four {
+        padding: 0;
+        margin-left: 34%;
+        margin-right: 34%;
+    }
+
+    #o-girl {
+        margin-left: -110px;
+    }
+
+    #fr-section-img {
+        margin-left: -30px;
+    }
+
+    #five {
+        margin-left: 25%;
+    }
+
+    #y-girl {
+        margin: 0;
+        margin-left: -30px;
+    }
+
+    #six {
+        margin-left: 8%;
+        margin-right: 33%;
+    }
+    
+    .discuss-with-psycho {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        padding-top: 0;
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .column-list-element-container {
+        margin-bottom: 0;
+    }
+
+    .psycho-discussion {
+        font-size: 20px;
+    }
+
+    #little-girl  {
+        /* margin-left: auto !important;
+        margin-right: auto; */
+        margin: 0;
+    }
+
+    .th-section-img {
+        margin-left: 30%;
+    }
+
+    #l-girl {
+        margin-left: 28%;
+    }
+
+    .list-title {
+        font-size: 30px;
+    }
+
+    #m-girl {
+        margin-left: -15px;
+    }
+    
+    .slogan {
+        width: 300px;
+        margin-left: 23%;
+    }
+    
     .navbar-brand {
         font-size: 17px;
     }
 
     .choose-psycho {
-        padding: 7px;
-        font-size: 9px;
+        padding: 5px;
+        font-size: 13px;
+        margin-left: -35px;
     }
 
     #nav-icon6 span {

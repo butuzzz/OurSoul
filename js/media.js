@@ -8,8 +8,7 @@ const func = function(mediaQuery) {
             i.classList.remove("row-list-element-container");
         }
 
-        lg.remove('section-container');
-        
+        lg.classList.remove('section-container');
     }
 }
 
