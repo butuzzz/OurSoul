@@ -28,6 +28,10 @@
 	<!-- Иконка -->
 	<link rel="icon" href="../img/icon.png" type="image/x-icon">
 
+	<!-- Swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	
+
 
 </head>
 <body>
@@ -37,12 +41,12 @@
 			<a href="#" class="navbar-brand">OUR SOUL</a>
 			<div class="navbar-wrap">
 				<ul class="navbar-menu">
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Психологам</a></li>
-					<li><a href="#">Отзывы</a></li>
+					<li><a href="#value" id="abus">О нас</a></li>
+					<li><a href="./forPsycho.html">Психологам</a></li>
+					<li><a href="#feedback">Отзывы</a></li>
 				</ul>
 
-				<a href="https://t.me/rrinyxx" target="_blank" class="choose-psycho">Подобрать психолога</a>
+				<a href="../reg.html" target="_blank" class="choose-psycho">Подобрать психолога</a>
 				<ul>
 					<li class="list-elem-znak">
 						<a class="open-menu" href="#">
@@ -51,7 +55,7 @@
 							</div>
 						</a>
 						<ul class="list">
-							<li class="list-elem" id="frst"><a href="#">О нас</a></li>
+							<li class="list-elem" id="frst"><a href="#value">О нас</a></li>
 							<li class="list-elem" id="scnd"><a href="#">Психологам</a></li>
 							<li class="list-elem" id="thrd"><a href="#">Отзывы</a></li>
 						</ul>
@@ -88,48 +92,101 @@
 			<img class='slogan_img' src="../img/our_soul.jpg">
 		</div>
 	</div>
-		<div class="psycho-list">
-			<div class="list-container">	
-				<h1 class="list-title">Психолог поможет:</h1>
-			</div>
-			<div class="column-list-element-container">
-				<div class="row-list-element-container el">
-					<div class="section-container">
-						<img src="../img/sec1.jpg" class="f-section-img">
-						<p class="section-text" style="text-align: center;" id="ffst">Определить вектор профессионального развития</p>
-					</div>
-					<div class="section-container" >
-						<img src="../img/sec2.jpg" class="s-section-img">
-						<p class="section-text" style="text-align: center;" id="swcnd">Разрешить межличностные конфликты</p>
-					</div>
-					<div class="section-container" id="little-girl">
-						<img src="../img/sec3.jpg" class="th-section-img">
-						<p class="section-text" style="text-align: center;" id="l-girl">Избавиться от тревоги</p>
-					</div>
+	<div class="psycho-list">
+		<div class="list-container">	
+			<h1 class="list-title">Психолог поможет:</h1>
+		</div>
+		<div class="column-list-element-container">
+			<div class="row-list-element-container el">
+				<div class="section-container">
+					<img src="../img/sec1.jpg" class="f-section-img">
+					<p class="section-text" style="text-align: center;" id="ffst">Определить вектор профессионального развития</p>
 				</div>
-				<div class="row-list-element-container el">
-					<div class="sec-section-container" id="four">
-						<img src="../img/sec4.jpg" class="fr-section-img" >
-						<p class="section-text" style="text-align: center;" id="o-girl">Научиться отстаивать личные границы</p>
-					</div>
-					<div class="sec-section-container" id="five">
-						<img src="../img/sec5.jpg" class="ff-section-img">
-						<p class="section-text" style="text-align: center;" id="y-girl">Повысить самооценку и побороть комплексы</p>
-					</div>
-					<div class="sec-section-container" id="six">
-						<img src="../img/sec6.jpg" class="sx-section-img">
-						<p class="section-text" style="text-align: center;" id="m-girl">Побороть прокрастинацию</p>
-					</div>
+				<div class="section-container" >
+					<img src="../img/sec2.jpg" class="s-section-img">
+					<p class="section-text" style="text-align: center;" id="swcnd">Разрешить межличностные конфликты</p>
+				</div>
+				<div class="section-container" id="little-girl">
+					<img src="../img/sec3.jpg" class="th-section-img">
+					<p class="section-text" style="text-align: center;" id="l-girl">Избавиться от тревоги</p>
 				</div>
 			</div>
-			<div class="discuss-with-psycho">
-				<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdVeSNXnoIr0EPN5nZ-1csTXuuxr6LlvO408TQarBaEiXKJHg/viewform?usp=sharing" class="psycho-discussion">Хочу обсудить свою ситуацию</a>
+			<div class="row-list-element-container el">
+				<div class="sec-section-container" id="four">
+					<img src="../img/sec4.jpg" class="fr-section-img" >
+					<p class="section-text" style="text-align: center;" id="o-girl">Научиться отстаивать личные границы</p>
+				</div>
+				<div class="sec-section-container" id="five">
+					<img src="../img/sec5.jpg" class="ff-section-img">
+					<p class="section-text" style="text-align: center;" id="y-girl">Повысить самооценку и побороть комплексы</p>
+				</div>
+				<div class="sec-section-container" id="six">
+					<img src="../img/sec6.jpg" class="sx-section-img">
+					<p class="section-text" style="text-align: center;" id="m-girl">Побороть прокрастинацию</p>
+				</div>
 			</div>
 		</div>
+		<div class="discuss-with-psycho">
+			<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdVeSNXnoIr0EPN5nZ-1csTXuuxr6LlvO408TQarBaEiXKJHg/viewform?usp=sharing" class="psycho-discussion">Хочу обсудить свою ситуацию</a>
+		</div>
+	</div>
+	<!-- <div class="val-for-users" id="value">
+		<div class="container">
+			<div class="weee">
+				<h1>Мы проводим психологические консультации для подростков по доступной цене</h1>
+			</div>
+			<div class="valuee">
+				<h1>Ценность для подростков</h1>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="feedback" id="feedback">
+		<div class="container">
+			<div class="heading">
+				<h1>Вот что о нас говорят клиенты</h1>
+			</div>
+			<div class="feedback-slide">
+				<div class="feedback-card">
+					<div class="user-data">
+						<img class='ava' src="../img/ava.jpg">
+						<p>1 Имя Фамилия возраст</p>
+					</div>
+					<div class="user-feedback">
+						<p>Отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв</p>
+					</div>
+				</div>
+			</div>
+			<div class="feedback-slide">
+				<div class="feedback-card">
+					<div class="user-feedback">
+						<p>Отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв</p>
+					</div>
+					<div class="user-data secnd-hnd">
+						<img class='ava' src="../img/ava.jpg">
+						<p>2 Имя Фамилия возраст</p>
+					</div>
+				</div>
+			</div>
+			<div class="feedback-slide">
+				<div class="feedback-card">
+					<div class="user-data">
+						<img class='ava' src="../img/ava.jpg">
+						<p>3 Имя Фамилия возраст</p>
+					</div>
+					<div class="user-feedback">
+						<p>Отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв отзыв</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="../libs/jquary/jquery-3.6.4.min.js"></script>
     <script src="../libs/vide/jquery.vide.min.js"></script>
 	<script src="../js/script.js"></script>
 	<script src="../js/media.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 </body>
 </html>

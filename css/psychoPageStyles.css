@@ -1,0 +1,210 @@
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+	margin: 0;
+}
+
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px #FFF8FA;
+	/* background: #ffe9ef; */
+	background: #fff;
+	margin: 4px 0;
+}
+
+.navbar .container{
+	height: inherit;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+}
+
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 43px;
+	text-decoration: none;
+	color: #7a0056;
+	transition: all .35s ease-in-out;
+	/* display: none; */
+    position: absolute;
+    top: 5px;
+    left: 105px;
+}
+
+.navbar-brand:hover {
+	color: #97016a;
+}
+
+.psycho-survey {
+    position: absolute;
+    right: 50px;
+    margin: 7px 0;
+    margin-right: 80px;
+    top: 0;
+    padding: 10px 20px;
+    background: #7a0056;
+    border: 2px solid #7a0056;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: all .3333s ease-in;
+	color: #FFF8FA;
+	opacity: 0.7;
+	transition: all .3s ease-in-out;
+	box-shadow: 0 0 6px rgb(122, 0, 86, .2);
+}
+
+.psycho-survey:hover {
+    background: #fff;
+    color: #7a0056;
+}
+
+.get {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.get h1 {
+    color: #6b004b;
+    font-size: 50px;
+}
+
+.plus-col {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.plus-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.plus-col {
+    margin-right: 50px;
+}
+
+.plus-col:last-child {
+    margin-right: 0;
+}
+
+.plus-col h3, p {
+    margin: 0;
+    text-align: center;
+    color:#7a0056;
+}
+
+.plus-col h3 {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.plus-col p {
+    opacity: 0.85;
+    font-weight: 600;
+}
+
+.how {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.how h1 {
+    color: #6b004b;
+    font-size: 50px;
+}
+
+.wtdo {
+    color: #6b004b;
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+.list-elem{
+    width: 800px;
+}
+
+.how-to-get {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.how-col {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.how-col h3, p {
+    margin: 0;
+    text-align: center;
+    color:#7a0056;
+}
+
+.how-col h3 {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.plus-row {
+    margin: 0;
+    padding: 0;
+}
+
+.how {
+    margin-top: 50px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-psycho-survey {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background: #7a0056;
+    border: 2px solid #7a0056;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: all .3333s ease-in;
+	color: #FFF8FA;
+	opacity: 0.9;
+	transition: all .3s ease-in-out;
+	box-shadow: 0 4px 6px rgb(122, 0, 86, .2);
+}
+
+.sec-psycho-survey:hover {
+    background: #fff;
+    color: #7a0056;
+}
+
+.main {
+    background: #fff6f8;
+    margin-top: -30px;
+}
+
+/* .important-text {
+    opacity: 0.85;
+} */

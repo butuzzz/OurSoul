@@ -11,6 +11,7 @@ body {
 	overflow-x: hidden;
 	height: auto;
 	margin: 0;
+	margin-right: -50px;
 }
 
 
@@ -225,7 +226,8 @@ a {
 /* main */
 
 .main {
-	background: #ffdae4;
+	/* background: #ffdae4; */
+	background: #fff6f8;
 	width: 100%;
 }
 
@@ -537,8 +539,9 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #fff;
-	margin-left: -30px;
+	background: #fff;	
+	padding: 0;
+	margin: 0;
 }
 
 /* .psycho-list {
@@ -561,4 +564,106 @@ a {
 .psycho-discussion:hover {
 	color: #5c0040;
 	background: #fff;
+}
+
+.val-for-users {
+	width: 100%;
+	background: #fff6f8;
+}
+
+.val-for-users .container {
+	width: inherit;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.weee h1 {
+	width: 900px;
+	text-align: center;
+	font-size: 50px;
+	color:#70004f;
+}
+
+.weee {
+	margin-bottom: 0;
+}
+
+.valuee h1 {
+	font-size: 150px;
+	width: 1000px;
+	text-align: center;
+	margin: 0;
+}
+
+.feedback {
+	width: 100%;
+	background: #fff6f8;
+}
+
+.feedback .container  {
+	width: inherit;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.heading h1 {
+	font-size: 70px;
+	color:#660047;
+}
+
+.feedback-card {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+}
+
+.ava {
+	width: 200px;
+	height: 200px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.user-data p {
+	color:#660047;
+	font-weight: 600;
+	width: 200px;
+	text-align: center;
+	padding-left: 30px;
+}
+
+.user-feedback {
+	width: 700px;
+	margin-left: 50px;
+	margin-top: -50px;
+}
+
+.user-feedback p{
+	font-size: 25px;
+	color:#660047;
+	font-weight: 500;
+}
+
+.feedback-card {
+	background: #fff;
+	border-radius: 50px;
+	margin-bottom: 30px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #fff6f8;
+}
+
+.feedback-slide {
+	width: 100px;
+	/* background: #fff; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.secnd-hnd {
+	padding-right: 30px;
 }
